@@ -1,0 +1,72 @@
+.resume-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #e6dace;
+	width: 100%;
+	margin-top: 10vh;
+	padding: 1%;
+	position: relative;
+}
+
+.resume-container h1 {
+	font: normal normal bold 35px/1.4em poppins-semibold, poppins, sans-serif;
+}
+
+.resume-container h1::before {
+	content: '';
+	width: 16px;
+	height: 16px;
+	background-color: #0050ff;
+	position: absolute;
+	left: 43%;
+	top: 2%;
+	transform: translateY(-65%);
+}
+
+.resume-container h2 {
+	font: normal normal bold 25px/1.4em poppins-semibold, poppins, sans-serif;
+	margin-top: 4%;
+}
+
+.histroy {
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+	width: 724px;
+	min-height: 368px;
+	position: relative;
+	margin: 10% 0;
+	box-shadow: -11.31px 11.31px 25px 0px rgba(138, 131, 124, 0.23);
+}
+
+.history-info {
+	width: 50%;
+	position: absolute;
+	top: 60px;
+	left: 52px;
+}
+
+.history-content {
+	width: 50%;
+	position: absolute;
+	top: 60px;
+	right: 52px;
+}
+
+.history-content ol {
+	padding: 20px;
+}
+
+.history-content li {
+	margin: 5px 0;
+}
+
+.history-info p {
+	margin: 10px 0;
+}
+
+.history-info .date {
+	font: normal normal bold 20px/1.4em poppins-semibold, poppins, sans-serif;
+	color: #0050ff;
+}

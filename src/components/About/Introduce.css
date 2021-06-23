@@ -1,0 +1,54 @@
+.introduce-container {
+	position: absolute;
+	top: 24%;
+	left: 10%;
+}
+
+.introduce-container p:first-child {
+	font-size: 100px;
+	font: normal normal bold 100px/1.4em poppins-semibold, poppins, sans-serif;
+}
+
+.introduce-container p:nth-child(2) {
+	font-size: 25px;
+}
+
+.introduce-content {
+	min-height: 175px;
+	width: 369px;
+	font-size: 17px;
+	line-height: 2em;
+}
+
+.introduce-container a {
+	display: inline-block;
+	background-color: #0050ff;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	border-radius: 15px;
+	width: 35%;
+	margin: 10% 0;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.introduce-container a:hover {
+	background-color: #fff;
+	color: #000;
+	border: 2px solid #0050ff;
+}
+
+.introduce-container a + a {
+	background-color: #fff;
+	color: #000;
+	border: 1.5px solid #000;
+	margin-left: 10px;
+}
+
+.introduce-container a + a:hover {
+	background-color: #0050ff;
+	color: #fff;
+	border: 1.5px solid #0050ff;
+}
