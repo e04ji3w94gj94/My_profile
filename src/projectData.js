@@ -62,5 +62,23 @@ export default {
         "image": "/My_profile/images/10-dad-jokes.png",
         "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day10-dad_jokes/build/"
       },
+      {
+        "projectID": "11",
+        "projectName": "Event Keycodes",
+        "image": "/My_profile/images/11-event-keycodes.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day11-eventkey_codes/build/"
+      },
+      {
+        "projectID": "12",
+        "projectName": "Faq Collapse",
+        "image": "/My_profile/images/12-faq-collapse.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day12-faq_collapse/build/"
+      },
+      {
+        "projectID": "13",
+        "projectName": "Random Choice Picker",
+        "image": "/My_profile/images/13-random-choice-picker.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day13-random_choice_picker/build/"
+      },
     ]
 }
