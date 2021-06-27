@@ -80,5 +80,23 @@ export default {
         "image": "/My_profile/images/13-random-choice-picker.png",
         "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day13-random_choice_picker/build/"
       },
+      {
+        "projectID": "14",
+        "projectName": "Animated Navigation",
+        "image": "/My_profile/images/14-animated-navigation.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day14-animated_navigation/build/"
+      },
+      {
+        "projectID": "15",
+        "projectName": "Incrementing Counter",
+        "image": "/My_profile/images/15-incrementing-counter.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day15-incrementing_counter/build/"
+      },
+      {
+        "projectID": "16",
+        "projectName": "Drink Water",
+        "image": "/My_profile/images/16-drink-water.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day16-drink_water/build/"
+      },
     ]
 }
