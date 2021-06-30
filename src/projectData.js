@@ -98,5 +98,23 @@ export default {
         "image": "/My_profile/images/16-drink-water.png",
         "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day16-drink_water/build/"
       },
+      {
+        "projectID": "17",
+        "projectName": "Movie App",
+        "image": "/My_profile/images/17-movie-app.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day17-movie_app/build/"
+      },
+      {
+        "projectID": "18",
+        "projectName": "Background Slider",
+        "image": "/My_profile/images/18-background-slider.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day18-background_slider/build/"
+      },
+      {
+        "projectID": "19",
+        "projectName": "Theme Clock",
+        "image": "/My_profile/images/19-theme-clock.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day19-theme_clock/build/"
+      },
     ]
 }
