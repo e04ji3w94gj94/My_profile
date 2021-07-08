@@ -116,5 +116,71 @@ export default {
         "image": "/My_profile/images/19-theme-clock.png",
         "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day19-theme_clock/build/"
       },
+      {
+        "projectID": "20",
+        "projectName": "Button Ripple Effect",
+        "image": "/My_profile/images/20-button-ripple-effect.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day20-button_ripple_effect/build/"
+      },
+      {
+        "projectID": "21",
+        "projectName": "Drag N Drop",
+        "image": "/My_profile/images/21-drag-n-drop.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day21-dragN_drop/build/"
+      },
+      {
+        "projectID": "22",
+        "projectName": "Drawing App",
+        "image": "/My_profile/images/22-drawing-app.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day22-drawing_app/build/"
+      },
+      {
+        "projectID": "23",
+        "projectName": "Kinetic Loader",
+        "image": "/My_profile/images/23-kinetic-loader.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day23-kinetic_css_loader/build/"
+      },
+      {
+        "projectID": "24",
+        "projectName": "Content Placeholder",
+        "image": "/My_profile/images/24-content-placeholder.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day24-content_placeholder/build/"
+      },
+      {
+        "projectID": "25",
+        "projectName": "Sticky Navbar",
+        "image": "/My_profile/images/25-sticky-navbar.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day25-sticky_navigation/build/"
+      },
+      {
+        "projectID": "26",
+        "projectName": "Double Vertical Slider",
+        "image": "/My_profile/images/26-double-vertical-slider.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day26-double_vertical_slider/build/"
+      },
+      {
+        "projectID": "27",
+        "projectName": "Toast Notification",
+        "image": "/My_profile/images/27-toast-notification.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day27-toast_notification/build/"
+      },
+      {
+        "projectID": "28",
+        "projectName": "Github Profiles",
+        "image": "/My_profile/images/28-github-profiles.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day28-githubprofiles/build/"
+      },
+      {
+        "projectID": "29",
+        "projectName": "Double Click Heart",
+        "image": "/My_profile/images/29-double-click-heart.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day29-double_heart_click/build/"
+      },
+      {
+        "projectID": "30",
+        "projectName": "Auto Text Effect",
+        "image": "/My_profile/images/30-auto-text-effect.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day30-autotext_effect/build/"
+      },
     ]
 }
