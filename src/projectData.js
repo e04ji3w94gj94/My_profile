@@ -182,5 +182,77 @@ export default {
         "image": "/My_profile/images/30-auto-text-effect.png",
         "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day30-autotext_effect/build/"
       },
+      {
+        "projectID": "31",
+        "projectName": "Password Generator",
+        "image": "/My_profile/images/31-password-generator.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day31-password_generator/build/"
+      },
+      {
+        "projectID": "32",
+        "projectName": "Good Cheap Fast",
+        "image": "/My_profile/images/32-good-cheap-fast.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day32-good_cheap_fast_checkboxes/build/"
+      },
+      {
+        "projectID": "33",
+        "projectName": "Notes App",
+        "image": "/My_profile/images/33-notes-app.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day33-notes_app/build/"
+      },
+      {
+        "projectID": "34",
+        "projectName": "Animated Countdown",
+        "image": "/My_profile/images/34-animated-countdown.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day34-animated_countdown/build/"
+      },
+      {
+        "projectID": "35",
+        "projectName": "Image Carousel",
+        "image": "/My_profile/images/35-image-carousel.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day35-image_carousel/build/"
+      },
+      {
+        "projectID": "36",
+        "projectName": "Hoverboard",
+        "image": "/My_profile/images/36-hoverboard.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day36-hoverboard/build/"
+      },
+      {
+        "projectID": "37",
+        "projectName": "Pokedex",
+        "image": "/My_profile/images/37-pokedex.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day37-pokedex/build/"
+      },
+      {
+        "projectID": "38",
+        "projectName": "Mobile Tab Navigation",
+        "image": "/My_profile/images/38-mobile-tab-navigation.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day38-mobile_tab_navigation/build/"
+      },
+      {
+        "projectID": "39",
+        "projectName": "Password Strength Background",
+        "image": "/My_profile/images/39-password-strength-background.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day39-password_strength_background/build/"
+      },
+      {
+        "projectID": "40",
+        "projectName": "3d Background Boxes",
+        "image": "/My_profile/images/40-3d-background-boxes.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day40-3dboxes_background/build/"
+      },
+      {
+        "projectID": "41",
+        "projectName": "Verify Account Ui",
+        "image": "/My_profile/images/41-verify-account-ui.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day41-verify_account_ui/build/"
+      },
+      {
+        "projectID": "42",
+        "projectName": "Live User Filter",
+        "image": "/My_profile/images/42-live-user-filter.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day42-live_user_filter/build/"
+      },
     ]
 }
