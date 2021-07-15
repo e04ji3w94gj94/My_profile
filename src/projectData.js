@@ -254,5 +254,29 @@ export default {
         "image": "/My_profile/images/42-live-user-filter.png",
         "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day42-live_user_filter/build/"
       },
+      {
+        "projectID": "43",
+        "projectName": "Feedback Ui Design",
+        "image": "/My_profile/images/43-feedback-ui-design.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day43-feedbackui_design/build/"
+      },
+      {
+        "projectID": "44",
+        "projectName": "Custom Range Slider",
+        "image": "/My_profile/images/44-custom-range-slider.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day44-custom_range_slider/build/"
+      },
+      {
+        "projectID": "45",
+        "projectName": "Netflix Mobile Navigation",
+        "image": "/My_profile/images/45-netflix-mobile-navigation.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day45-Netflix_navigation/build/"
+      },
+      {
+        "projectID": "46",
+        "projectName": "Quiz App",
+        "image": "/My_profile/images/46-quiz-app.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day46-quiz_app/build/"
+      },
     ]
 }
