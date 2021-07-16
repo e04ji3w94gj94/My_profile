@@ -278,5 +278,29 @@ export default {
         "image": "/My_profile/images/46-quiz-app.png",
         "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day46-quiz_app/build/"
       },
+      {
+        "projectID": "47",
+        "projectName": "Testimonial Box Switcher",
+        "image": "/My_profile/images/47-testimonial-box-switcher.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day47-testimonial_box_switcher/build/"
+      },
+      {
+        "projectID": "48",
+        "projectName": "Random Image Feed",
+        "image": "/My_profile/images/48-random-image-feed.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day48-random_image_feed/build/"
+      },
+      {
+        "projectID": "49",
+        "projectName": "Todo List",
+        "image": "/My_profile/images/49-todo-list.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day49-todo_list/build/"
+      },
+      {
+        "projectID": "50",
+        "projectName": "Insect Catch Game",
+        "image": "/My_profile/images/50-insect-catch-game.png",
+        "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day50-insect_catch_game/build/"
+      },
     ]
 }
