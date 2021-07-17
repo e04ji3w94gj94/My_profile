@@ -64,7 +64,10 @@ const Projects = () => {
 
 	return (
 		<div className="project-container">
-			<h1>Projects</h1>
+			<div className="title">
+				<div className="square"></div>
+				<h1>Projects</h1>
+			</div>
 			<div className="card-container">
 				{
 					projectRender()

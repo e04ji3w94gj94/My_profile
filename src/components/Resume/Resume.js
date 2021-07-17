@@ -9,7 +9,10 @@ import './Resume.css'
 const Resume = () => {
 	return (
 		<div className="resume-container">
-			<h1>Resume</h1>
+			<div className="title">
+				<div className="square"></div>
+				<h1>Resume</h1>
+			</div>
 			<Experience />
 			<Education />
 			<Professional />

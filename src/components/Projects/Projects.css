@@ -1,6 +1,6 @@
 .project-container {
 	background-color: #e6dace;
-	height: 100%;
+	min-height: 100vh;
 	padding: 1%;
 	text-align: center;
 	margin-top: 10vh;
@@ -10,17 +10,6 @@
 .project-container h1 {
 	margin: 50px 0;
 	font: normal normal bold 35px/1.4em poppins-semibold, poppins, sans-serif;
-}
-
-.project-container h1::before {
-	content: '';
-	width: 16px;
-	height: 16px;
-	background-color: #0050ff;
-	position: absolute;
-	left: 43%;
-	top: 9%;
-	transform: translateY(-20%);
 }
 
 .card-container {

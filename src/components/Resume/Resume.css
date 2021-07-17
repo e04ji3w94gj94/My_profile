@@ -13,17 +13,6 @@
 	font: normal normal bold 35px/1.4em poppins-semibold, poppins, sans-serif;
 }
 
-.resume-container h1::before {
-	content: '';
-	width: 16px;
-	height: 16px;
-	background-color: #0050ff;
-	position: absolute;
-	left: 43%;
-	top: 2%;
-	transform: translateY(-65%);
-}
-
 .resume-container h2 {
 	font: normal normal bold 25px/1.4em poppins-semibold, poppins, sans-serif;
 	margin-top: 4%;

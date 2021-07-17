@@ -12,23 +12,14 @@
 }
 
 .header-name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	margin-left: 5%;
 }
 
-.header-name a:first-child {
-	font-size: 25px;
+.name {
 	font: normal normal bold 25px/1.4em poppins-semibold, poppins, sans-serif;
-}
-
-.header-name::before {
-	content: '';
-	width: 16px;
-	height: 16px;
-	background-color: #0050ff;
-	position: absolute;
-	left: 4%;
-	top: 5vh;
-	transform: translateY(-50%);
 }
 
 .header-name a {
@@ -51,7 +42,7 @@
 	list-style: none;
 	color: #000000;
 	text-decoration: none;
-	font-family: 'Open Sans', sans-serif;
+	font: normal normal normal 14px/1.4em 'avenir-lt', sans-serif;
 }
 
 .nav a.active {

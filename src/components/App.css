@@ -6,3 +6,15 @@
 	box-sizing: border-box;
 	font-family: Alata, sans-serif;
 }
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.square {
+	width: 16px;
+	height: 16px;
+	background-color: #0050ff;
+	margin-right: 10px;
+}

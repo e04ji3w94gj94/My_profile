@@ -6,7 +6,8 @@ const Header = () => {
 	return (
 		<header className='header' >
 			<div className='header-name'>
-				<Link to='/' >
+				<div className="square"></div>
+				<Link to='/' className="name">
 					Chen Jia Ming
 				</Link>
 				<span>/</span>
