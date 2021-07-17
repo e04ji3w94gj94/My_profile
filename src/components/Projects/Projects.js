@@ -4,9 +4,10 @@ import Pagination from './Pagination';
 import './Projects.css';
 
 const project_count = projectData.projects.length
+const one_page_count = 12
 
 const Projects = () => {
-	const [projectNumber, setProjectNumber] = useState([0, 12]);
+	const [projectNumber, setProjectNumber] = useState([0, one_page_count]);
 	const [leftBtn, setLeftBtn] = useState(false)
 	const [rightBtn, setRightBtn] = useState(false)
 	const [nowPage, setNowPage] = useState(1)
@@ -30,17 +31,17 @@ const Projects = () => {
 	}, [projectNumber])
 
 	const leftHandler = () => {
-		setProjectNumber((projectNumber) => [projectNumber[0] - 12, projectNumber[1] - 12])
+		setProjectNumber((projectNumber) => [projectNumber[0] - one_page_count, projectNumber[1] - one_page_count])
 	}
 
 	const rightHandler = () => {
-		setProjectNumber((projectNumber) => [projectNumber[1], projectNumber[1] + 12])
+		setProjectNumber((projectNumber) => [projectNumber[1], projectNumber[1] + one_page_count])
 	}
 
 	const changePageHandler = (id) => {
 		if (id === 0) id = 1
-		if (id > Math.ceil(project_count / 12)) id = Math.ceil(project_count / 12)
-		setProjectNumber((projectNumber) => [(id - 1) * 12, id * 12])
+		if (id > Math.ceil(project_count / one_page_count)) id = Math.ceil(project_count / one_page_count)
+		setProjectNumber((projectNumber) => [(id - 1) * one_page_count, id * one_page_count])
 		setNowPage(id)
 	}
 
@@ -81,7 +82,7 @@ const Projects = () => {
 				<i className="fas fa-chevron-right"></i>
 			</button>
 
-			<Pagination count={project_count} changeClick={changePageHandler} nowPage={nowPage} />
+			<Pagination count={project_count} changeClick={changePageHandler} nowPage={nowPage} one_page_count={one_page_count} />
 		</div>)
 };
 

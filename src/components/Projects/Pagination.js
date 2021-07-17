@@ -1,8 +1,8 @@
 import React from 'react';
 import './Pagination.css'
 
-const Pagination = ({ count, changeClick, nowPage }) => {
-  let pages = Math.ceil(count / 12)
+const Pagination = ({ count, changeClick, nowPage, one_page_count }) => {
+  let pages = Math.ceil(count / one_page_count)
 
   return (
     <ul className="pagination">

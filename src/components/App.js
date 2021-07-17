@@ -9,11 +9,11 @@ import './App.css';
 const App = () => {
 	return (
 		<Router history={history}>
-			<div>
+			<>
 				<Header />
 				<Main />
 				<Footer />
-			</div>
+			</>
 		</Router>
 	);
 };
