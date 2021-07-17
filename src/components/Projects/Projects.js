@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import './Projects.css';
 import projectData from "../../projectData"
+import Pagination from './Pagination';
+import './Projects.css';
+
+const project_count = projectData.projects.length
 
 const Projects = () => {
 	const [projectNumber, setProjectNumber] = useState([0, 12]);
 	const [leftBtn, setLeftBtn] = useState(false)
 	const [rightBtn, setRightBtn] = useState(false)
+	const [nowPage, setNowPage] = useState(1)
+
 
 
 	useEffect(() => {
@@ -13,7 +18,7 @@ const Projects = () => {
 			setLeftBtn(false)
 			setRightBtn(true)
 		}
-		else if (projectNumber[1] > projectData.projects.length) {
+		else if (projectNumber[1] > project_count) {
 			setLeftBtn(true)
 			setRightBtn(false)
 		}
@@ -32,6 +37,13 @@ const Projects = () => {
 		setProjectNumber((projectNumber) => [projectNumber[1], projectNumber[1] + 12])
 	}
 
+	const changePageHandler = (id) => {
+		if (id === 0) id = 1
+		if (id > Math.ceil(project_count / 12)) id = Math.ceil(project_count / 12)
+		setProjectNumber((projectNumber) => [(id - 1) * 12, id * 12])
+		setNowPage(id)
+	}
+
 	const projectRender = () => {
 		return projectData.projects.map((project, idx) => {
 			if (idx >= projectNumber[0] && idx < projectNumber[1]) {
@@ -46,8 +58,10 @@ const Projects = () => {
 					</div>
 				)
 			}
+			return false
 		})
 	}
+
 	return (
 		<div className="project-container">
 			<h1>Projects</h1>
@@ -57,12 +71,14 @@ const Projects = () => {
 				}
 			</div>
 			<button className="arrow left-arrow" onClick={leftHandler} disabled={!leftBtn}>
-				<i class="fas fa-chevron-left"></i>
+				<i className="fas fa-chevron-left"></i>
 			</button>
 
 			<button className="arrow right-arrow" onClick={rightHandler} disabled={!rightBtn}>
-				<i class="fas fa-chevron-right"></i>
+				<i className="fas fa-chevron-right"></i>
 			</button>
+
+			<Pagination count={project_count} changeClick={changePageHandler} nowPage={nowPage} />
 		</div>)
 };
 
