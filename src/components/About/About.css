@@ -14,3 +14,22 @@
 	width: 60%;
 	position: relative;
 }
+
+@media (max-width: 575.99px) {
+	.about-container {
+		flex-direction: column;
+		height: 135vh;
+	}
+
+	.about-container .left-bg {
+		width: 100%;
+		height: 35%;
+		background-color: #fff;
+	}
+
+	.about-container .right-bg {
+		width: 100%;
+		height: 65%;
+		background-color: #e6dace;
+	}
+}

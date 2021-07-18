@@ -11,6 +11,7 @@ const Profile = () => {
 					Jia Ming
 				</h1>
 				<span>Software Engineer</span>
+				<div className="under_line"></div>
 			</div>
 			<div className="social">
 				<a href="https://www.facebook.com/profile.php?id=100002498678572" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>

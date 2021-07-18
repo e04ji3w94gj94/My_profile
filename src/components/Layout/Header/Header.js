@@ -49,15 +49,15 @@ const Header = () => {
 
 			<div className={`mobile-nav-container ${open ? "active" : ""}`}>
 				<nav>
-					<NavLink exact to='/'>
+					<NavLink exact to='/' onClick={onClickHandler}>
 						ABOUT ME
 					</NavLink>
 
-					<NavLink to='/resume'>
+					<NavLink to='/resume' onClick={onClickHandler}>
 						RESUME
 					</NavLink>
 
-					<NavLink to='/projects'>
+					<NavLink to='/projects' onClick={onClickHandler}>
 						PROJECTS
 					</NavLink>
 				</nav>

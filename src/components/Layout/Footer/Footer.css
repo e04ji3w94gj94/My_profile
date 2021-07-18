@@ -34,3 +34,13 @@
 	margin: 0 10px;
 	cursor: pointer;
 }
+
+@media (max-width: 575.99px) {
+	.footer-copy {
+		display: none;
+	}
+	.footer-info {
+		width: 100%;
+		align-items: flex-start;
+	}
+}

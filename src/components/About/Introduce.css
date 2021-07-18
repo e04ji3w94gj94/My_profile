@@ -5,7 +5,6 @@
 }
 
 .introduce-container p:first-child {
-	font-size: 100px;
 	font: normal normal bold 100px/1.4em poppins-semibold, poppins, sans-serif;
 }
 
@@ -32,6 +31,7 @@
 	padding: 5px;
 	font-size: 15px;
 	font-weight: bold;
+	border: 1.5px solid #0050ff;
 }
 
 .introduce-container a:hover {
@@ -51,4 +51,35 @@
 	background-color: #0050ff;
 	color: #fff;
 	border: 1.5px solid #0050ff;
+}
+
+@media (max-width: 575.99px) {
+	.introduce-container {
+		top: 38%;
+		left: 11%;
+	}
+
+	.introduce-content {
+		width: 330px;
+	}
+
+	.introduce-container p:first-child {
+		font: normal normal bold 40px/1.4em poppins-semibold, poppins, sans-serif;
+	}
+
+	.introduce-container p:nth-child(2) {
+		font-size: 19px;
+	}
+
+	.introduce-container a {
+		width: 30%;
+		position: absolute;
+		top: -49%;
+		left: 10%;
+		z-index: 2;
+	}
+
+	.introduce-container a + a {
+		left: 55%;
+	}
 }
