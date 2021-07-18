@@ -4,12 +4,12 @@
 	align-items: center;
 	background-color: #e6dace;
 	width: 100%;
-	margin-top: 10vh;
+	height: 100%;
 	padding: 1%;
-	position: relative;
 }
 
 .resume-container h1 {
+	margin: 50px 0;
 	font: normal normal bold 35px/1.4em poppins-semibold, poppins, sans-serif;
 }
 

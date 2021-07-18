@@ -1,16 +1,16 @@
 .about-container {
 	display: flex;
-	height: 100vh;
+	height: 95vh;
 }
 
 .about-container .left-bg {
 	background-color: #e6dace;
-	flex: 3;
+	width: 40%;
 	position: relative;
 }
 
 .about-container .right-bg {
 	background-color: #fff;
-	flex: 4;
+	width: 60%;
 	position: relative;
 }

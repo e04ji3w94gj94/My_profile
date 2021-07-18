@@ -11,22 +11,6 @@ const Header = () => {
 
 	return (
 		<>
-			<div className={`mobile-nav-container ${open ? "active" : ""}`}>
-				<nav>
-					<NavLink exact to='/'>
-						ABOUT ME
-					</NavLink>
-
-					<NavLink to='/resume'>
-						RESUME
-					</NavLink>
-
-					<NavLink to='/projects'>
-						PROJECTS
-					</NavLink>
-				</nav>
-			</div>
-
 			<header className='header' >
 				<div className='header-name'>
 					<div className='title'>
@@ -62,6 +46,22 @@ const Header = () => {
 				</div>
 
 			</header>
+
+			<div className={`mobile-nav-container ${open ? "active" : ""}`}>
+				<nav>
+					<NavLink exact to='/'>
+						ABOUT ME
+					</NavLink>
+
+					<NavLink to='/resume'>
+						RESUME
+					</NavLink>
+
+					<NavLink to='/projects'>
+						PROJECTS
+					</NavLink>
+				</nav>
+			</div>
 		</>
 	);
 };
