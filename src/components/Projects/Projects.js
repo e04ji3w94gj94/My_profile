@@ -4,14 +4,28 @@ import Pagination from './Pagination';
 import './Projects.css';
 
 const project_count = projectData.projects.length
-const one_page_count = 12
 
 const Projects = () => {
+	const [one_page_count, setOne_page_count] = useState(12)
 	const [projectNumber, setProjectNumber] = useState([0, one_page_count]);
 	const [leftBtn, setLeftBtn] = useState(false)
 	const [rightBtn, setRightBtn] = useState(false)
 	const [nowPage, setNowPage] = useState(1)
 
+	useEffect(() => {
+		const myFunction = (view) => {
+			if (view.matches) {
+				setOne_page_count(8)
+				setProjectNumber([0, 8])
+			} else {
+				setOne_page_count(12)
+				setProjectNumber([0, 12])
+			}
+		}
+		const mobileView = window.matchMedia("(max-width: 575.99px)")
+		myFunction(mobileView)
+		mobileView.addListener(myFunction)
+	}, [one_page_count])
 
 
 	useEffect(() => {

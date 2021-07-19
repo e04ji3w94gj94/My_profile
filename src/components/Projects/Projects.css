@@ -110,3 +110,18 @@
 .project-container .right-arrow {
 	right: 1vw;
 }
+
+@media (max-width: 575.99px) {
+	.project-container {
+		margin-top: 30%;
+	}
+
+	.project-container .arrow {
+		display: none;
+	}
+
+	.card {
+		width: 300px;
+		margin: 3%;
+	}
+}

@@ -35,3 +35,9 @@
 .page-link i {
 	color: #fff;
 }
+
+@media (max-width: 575.99px) {
+	.pagination {
+		margin-bottom: 15px;
+	}
+}
