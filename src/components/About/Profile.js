@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Profile.css';
 
 const Profile = () => {
@@ -12,6 +13,15 @@ const Profile = () => {
 				</h1>
 				<span>Software Engineer</span>
 				<div className="under_line"></div>
+			</div>
+			<div className="mobile-button">
+				<Link to='/resume'>
+					RESUME
+				</Link>
+
+				<Link to='/projects'>
+					PROJECTS
+				</Link>
 			</div>
 			<div className="social">
 				<a href="https://www.facebook.com/profile.php?id=100002498678572" target="_blank" rel="noreferrer"><i className="fab fa-facebook-f"></i></a>

@@ -18,7 +18,7 @@
 @media (max-width: 575.99px) {
 	.about-container {
 		flex-direction: column;
-		height: 135vh;
+		min-height: 900px;
 	}
 
 	.about-container .left-bg {

@@ -55,7 +55,7 @@
 
 @media (max-width: 575.99px) {
 	.introduce-container {
-		top: 38%;
+		top: 43%;
 		left: 11%;
 	}
 
@@ -72,14 +72,6 @@
 	}
 
 	.introduce-container a {
-		width: 30%;
-		position: absolute;
-		top: -49%;
-		left: 10%;
-		z-index: 2;
-	}
-
-	.introduce-container a + a {
-		left: 55%;
+		display: none;
 	}
 }

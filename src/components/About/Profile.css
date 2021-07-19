@@ -1,6 +1,10 @@
 .profile-container {
 	width: 415px;
 	height: 550px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	background-color: #f4ece6;
 	position: absolute;
 	right: -10%;
@@ -12,10 +16,11 @@
 }
 
 .profile-content {
-	position: absolute;
-	left: 50%;
-	transform: translateX(-50%);
-	top: 10%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
 	text-align: center;
 }
 
@@ -33,17 +38,20 @@
 .profile-content span {
 	letter-spacing: 0.25em;
 	display: inline-block;
-	margin-top: 30%;
+}
+
+.mobile-button a {
+	display: none;
 }
 
 .profile-content .under_line {
 	width: 60px;
 	height: 2px;
 	background-color: #0050ff;
-	position: absolute;
+	/* position: absolute;
 	left: 50%;
 	bottom: 15%;
-	transform: translateX(-50%);
+	transform: translateX(-50%); */
 }
 
 .social {
@@ -70,6 +78,11 @@
 		right: 0;
 		left: 50%;
 		transform: translateX(-50%) translateY(0%);
+		justify-content: center;
+	}
+
+	.profile-content {
+		height: 200px;
 	}
 
 	.profile-content img {
@@ -83,5 +96,45 @@
 
 	.profile-content span {
 		visibility: hidden;
+	}
+
+	.mobile-button {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+	}
+
+	.mobile-button a {
+		display: inline-block;
+		background-color: #0050ff;
+		text-decoration: none;
+		text-align: center;
+		color: #fff;
+		border-radius: 15px;
+		width: 35%;
+		margin: 10% 0;
+		padding: 5px;
+		font-size: 15px;
+		font-weight: bold;
+		border: 1.5px solid #0050ff;
+	}
+
+	.mobile-button a:hover {
+		background-color: #fff;
+		color: #000;
+		border: 2px solid #0050ff;
+	}
+
+	.mobile-button a + a {
+		background-color: #fff;
+		color: #000;
+		border: 1.5px solid #000;
+		margin-left: 10px;
+	}
+
+	.mobile-button a + a:hover {
+		background-color: #0050ff;
+		color: #fff;
+		border: 1.5px solid #0050ff;
 	}
 }
