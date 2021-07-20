@@ -287,7 +287,7 @@ export default {
       {
         "projectID": "48",
         "projectName": "Random Image Feed",
-        "image": " /images/48-random-image-feed.png",
+        "image": "/images/48-random-image-feed.png",
         "url": "https://e04ji3w94gj94.github.io/50-Projects-In-50-Days-with-React/day48-random_image_feed/build/"
       },
       {
