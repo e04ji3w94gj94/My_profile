@@ -6,7 +6,7 @@ const Profile = () => {
 	return (
 		<div className="profile-container">
 			<div className="profile-content">
-				<img src="/My_profile/images/profile.png" alt="profile" />
+				<img src="/e04/build/images/profile.png" alt="profile" />
 				<h1 className="profile-name">Chen
 					<br />
 					Jia Ming
