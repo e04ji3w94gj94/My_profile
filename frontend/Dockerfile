@@ -1,19 +1,19 @@
 FROM node:14.13.1-alpine as react_build
 
 
-WORKDIR /app
+WORKDIR /usr/app
 #copy the react app to the container
-COPY . /app/ 
+COPY ./package.json /usr/app/ 
 
 # #prepare the contiainer for building react 
 RUN npm install --silent
-RUN npm install react-scripts@3.0.1 -g --silent 
+COPY . /usr/app/ 
 RUN npm run build 
 
 #prepare nginx
 FROM nginx:1.16.0-alpine
 
-COPY --from=react_build /app/build /usr/share/nginx/html
+COPY --from=react_build /usr/app/build /usr/share/nginx/html
 RUN rm /etc/nginx/conf.d/default.conf
 COPY nginx/nginx.conf /etc/nginx/conf.d
 
