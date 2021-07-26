@@ -2,12 +2,15 @@ FROM node:14.13.1-alpine as react_build
 
 
 WORKDIR /app
-#copy the react app to the container
-COPY . /app/ 
 
+COPY package.json /app/ 
 # #prepare the contiainer for building react 
 RUN npm install --silent
+
+#copy the react app to the container
+COPY . /app/ 
 RUN npm run build 
+
 
 #prepare nginx
 FROM nginx:1.21.0
