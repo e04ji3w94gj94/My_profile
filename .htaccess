@@ -8,4 +8,4 @@ RewriteEngine On
 
    RewriteCond %{REQUEST_FILENAME} !-l
 
-   RewriteRule ^.*$ / [L,QSA]
+   RewriteRule ^.*$ /faifai/build/index.html [L,QSA]
