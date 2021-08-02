@@ -1,16 +1,33 @@
 import React, { useState, useEffect } from 'react';
-import projectData from "../../projectData"
+import axios from 'axios';
 import Pagination from './Pagination';
 import './Projects.css';
 
-const project_count = projectData.projects.length
+let project_count = 0
+
 
 const Projects = () => {
+	const [projectData, setProjectData] = useState([])
 	const [one_page_count, setOne_page_count] = useState(12)
 	const [projectNumber, setProjectNumber] = useState([0, one_page_count]);
+	const [loading, setLoading] = useState(true)
 	const [leftBtn, setLeftBtn] = useState(false)
 	const [rightBtn, setRightBtn] = useState(false)
 	const [nowPage, setNowPage] = useState(1)
+
+	useEffect(() => {
+		const fetchProjects = async () => {
+			try {
+				const res = await axios.get('/api/projects');
+				project_count = res.data.length
+				setProjectData(res.data)
+				setLoading(false)
+			} catch (error) {
+				console.log(error)
+			}
+		}
+		fetchProjects()
+	}, [])
 
 	useEffect(() => {
 		const myFunction = (view) => {
@@ -55,12 +72,12 @@ const Projects = () => {
 	const changePageHandler = (id) => {
 		if (id === 0) id = 1
 		if (id > Math.ceil(project_count / one_page_count)) id = Math.ceil(project_count / one_page_count)
-		setProjectNumber((projectNumber) => [(id - 1) * one_page_count, id * one_page_count])
+		setProjectNumber(() => [(id - 1) * one_page_count, id * one_page_count])
 		setNowPage(id)
 	}
 
 	const projectRender = () => {
-		return projectData.projects.map((project, idx) => {
+		return projectData.map((project, idx) => {
 			if (idx >= projectNumber[0] && idx < projectNumber[1]) {
 				return (
 					<div key={idx} className='card'>
@@ -85,7 +102,7 @@ const Projects = () => {
 			</div>
 			<div className="card-container">
 				{
-					projectRender()
+					!loading && projectRender()
 				}
 			</div>
 			<button className="arrow left-arrow" onClick={leftHandler} disabled={!leftBtn}>
