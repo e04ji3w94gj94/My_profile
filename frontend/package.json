@@ -1,6 +1,5 @@
 {
-  "name": "my_profile",
-  "proxy": "http://localhost:5000",
+  "name": "faifai_profile_frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
