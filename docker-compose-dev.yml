@@ -5,20 +5,20 @@ services:
   nginx:
     restart: always
     build:
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
       context: ./nginx
     ports:
       - '8080:80'
   api:
     build:
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
       context: ./backend
     volumes:
       - /app/node_modules
       - ./backend:/app
   frontend:
     build:
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
       context: ./frontend
     volumes:
       - /app/node_modules

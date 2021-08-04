@@ -10,7 +10,7 @@ COPY . .
 RUN npm run build
 
 FROM nginx 
-EXPOSE 80
+EXPOSE 3000
 COPY --from=frontend /app/build /usr/share/nginx/html
 RUN rm /etc/nginx/conf.d/default.conf
-COPY nginx/nginx.conf /etc/nginx/conf.d
+COPY nginx/default.conf /etc/nginx/conf.d
