@@ -7,6 +7,7 @@ const Footer = () => {
 			<div className='footer-copy'>
 				<p >© 2021 by Chen Jia Ming.</p>
 				<p>Proudly created with <a href="/">faifai.com</a></p>
+				<p>Use <i className="fab fa-docker"></i> <i className="fab fa-react"></i> <i className="fab fa-node"></i> <img src="/images/mongodb.svg" alt="mongodb"></img> <img src="/images/nginx.svg" alt="nginx"></img></p>
 			</div>
 			<div className='footer-info'>
 				<div>

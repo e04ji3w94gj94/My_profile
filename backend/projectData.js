@@ -3,6 +3,18 @@ export default {
 	projects:
 		[
 			{
+				"projectID": "51",
+				"projectName": "Faker Amazon",
+				"image": "/images/51-faker-amazon.png",
+				"url": "http://130.211.246.14:9000/"
+			},
+			{
+				"projectID": "52",
+				"projectName": "Devconnector(Social network)",
+				"image": "/images/52-devconnector.png",
+				"url": "http://130.211.246.14:3000/"
+			},
+			{
 				"projectID": "1",
 				"projectName": "Expanding Cards",
 				"image": "/images/1-expanding-cards.png",
